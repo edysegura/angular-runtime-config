@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { configProvider } from './config/initializer-config.function';
+import { configProvider } from './config/config-initializer';
 
 @NgModule({
   declarations: [

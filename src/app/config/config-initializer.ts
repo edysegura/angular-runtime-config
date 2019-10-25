@@ -2,7 +2,7 @@ import { APP_INITIALIZER, Provider } from '@angular/core';
 
 import { AppConfigService } from './app-config.service';
 
-const initializerConfigFunction = (appConfig: AppConfigService) => {
+const initializerConfigFunction = (appConfig: AppConfigService): Function => {
   return () => appConfig.loadAppConfig();
 };
 
