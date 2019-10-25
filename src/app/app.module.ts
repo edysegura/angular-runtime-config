@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { configProvider } from './config/config-initializer';
+import { autoHttpPrefixerProvider } from './interceptors/api-prefixer.interceptor';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { configProvider } from './config/config-initializer';
     HttpClientModule
   ],
   providers: [
-    configProvider
+    configProvider,
+    autoHttpPrefixerProvider
   ],
   bootstrap: [ AppComponent ]
 })
