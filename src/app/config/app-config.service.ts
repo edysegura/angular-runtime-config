@@ -11,7 +11,7 @@ export class AppConfigService {
     private http: HttpClient
   ) { }
 
-  loadAppConfig(): Promise<any> {
+  async loadAppConfig(): Promise<any> {
     const assignConfig = (config: any) => this.config = config;
 
     return this.http
