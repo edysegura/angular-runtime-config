@@ -5,10 +5,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { configProvider } from './config/config-initializer';
 import { autoHttpPrefixerProvider } from './interceptors/api-prefixer.interceptor';
+import { PokemonListComponent } from './pokemon-list/pokemon-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PokemonListComponent
   ],
   imports: [
     BrowserModule,
