@@ -8,4 +8,4 @@ It is an example on how to use a runtime configuration on angular.
 
 ## License
 
-MIT
+[MIT](LICENSE)
