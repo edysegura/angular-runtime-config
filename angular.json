@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-runtime-config"
+    }
+  },
+  "defaultProject": "angular-runtime-config",
+  "cli": {
+    "analytics": "36e73819-34fc-4381-8879-85e08ebb4d9a"
+  }
 }
